@@ -5,7 +5,11 @@ import axios from 'axios';
 import Typed from 'react-typed';
 import {Redes} from './Redes';
 
+const API = process.env.REACT_APP_API
+
 export const Contact = () => {
+
+
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -25,7 +29,7 @@ export const Contact = () => {
         }
 
         try{
-            const response = await axios.post(`http://127.0.0.1:5000/send_message`, {
+            const response = await axios.post(`${API}/send_message`, {
                 name: name,
                 email: email,
                 message: message

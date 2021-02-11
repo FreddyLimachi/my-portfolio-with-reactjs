@@ -1,0 +1,317 @@
+* {
+  cursor: url(../img/cursor.png), pointer; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  font-size: 16px;
+  font-family: TFs;
+  letter-spacing: 2px;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color:rgb(184, 184, 184);
+}
+
+span {
+  color: #0ea522;
+}
+
+@font-face {
+  font-family: TFs;
+  src: url(../fonts/TFs.ttf);
+}
+
+/* Navegacion */
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-main {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  width: 50px;
+}
+
+.nav-main ul {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a{
+  color: #a1a1a1;
+}
+
+.nav-main ul li a:hover{ 
+  text-decoration: none;
+  color: #ffffff;
+  cursor: url(../img/cursor-pointer.png), crosshair;    
+}
+
+.nav-main ul.nav-menu {
+  z-index: 100;
+}
+
+/* Responsive Button */
+.menu-btn {
+  position: absolute;
+  top: 28px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+/* redes sociales */
+.redes li a i {
+  font-size: 25px;
+  color: #b4b4b4;
+  margin-inline-start: 5px;
+}
+.redes li a i:hover{
+  color: #ffffff;
+  cursor: url(../img/cursor-pointer.png), crosshair;
+}
+
+/* Sobre mi */
+.my-skills ul li{
+  color: #b4b4b4;
+}
+
+/* Proyectos */
+.preview-project {
+  border-radius: 5px;
+  border: #8d8d8d solid 2px;
+  background: none;
+  padding: 10px;
+}
+
+.details .description{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tec li {
+  color: rgb(241, 239, 103);
+}
+
+
+/* Contacto */
+.control {
+  width: 100%;
+  background: none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: #8d8d8d solid 2px;
+  font-size: 16px;
+  color: white;
+}
+
+.contact i{
+  font-size: 30px;
+}
+
+.img-home img {
+  pointer-events: none;
+}
+
+.not-found {
+  margin-top: 50px;
+}
+
+.not-found img{
+  cursor: url(../img/cursor-pointer.png), crosshair;  
+}
+
+.return a{
+  color:#0ea522;
+  font-size: 25px;
+  cursor: url(../img/cursor-pointer.png), crosshair;
+}
+
+.return {
+  margin-top: 50px;
+}
+
+.return span {
+  font-size: 150px;
+  color: #ffffff;
+}
+
+@media only screen and (min-height: 225px) {
+  .home {
+    margin-top: 50px;
+  }
+  .about-me {
+    margin-top: 40px;
+  }
+  .presentation {
+    margin-top: 80px;
+  }
+  .contact {
+    margin-top: 100px;
+  }
+  .details {
+    margin-top: 50px;
+  }  
+}
+
+@media only screen and (min-height: 626px) {
+  .home {
+    margin-top: 100px;
+  }
+  .about-me {
+    margin-top: 75px;
+  }
+  .presentation {
+    margin-top: 80px;
+  }
+  .details {
+    margin-top: 50px;
+  }
+  .details {
+    margin-top: 75px;
+  }
+}
+
+@media only screen and (min-height: 726px) {
+  .home {
+    margin-top: 180px;
+  }
+  .presentation {
+    margin-top: 100px;
+  }
+  .about-me {
+    margin-top: 150px;
+  }
+  .contact {
+    margin-top: 150px;
+  }
+  .details {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  .home {
+    margin-top: 250px;
+  }
+  .presentation {
+    margin-top: 90px;
+  }
+  .about-me {
+    margin-top: 200px;
+  }
+  .contact {
+    margin-top: 200px;
+  }
+  .details {
+    margin-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img-home {
+    display: none;
+  }
+  .redes li a i {
+    color: #f8f8f8;
+  }
+  .about-me {
+    margin-top: 20px;
+  }
+  .contact {
+    margin-top: 20px;
+  }
+  .details {
+    margin-top: 25px;
+  }
+  .details .description{
+    margin-top: 25px;
+    text-align: center;
+  }
+  .not-found img{
+    display: none;
+  }
+  .return {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .menu-btn {
+    display: block;
+  }
+
+  .menu-btn i{
+    color: #a0a0a0;
+  }
+
+  .nav-main ul.nav-menu {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    width: 60%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: .9;
+    padding: 40px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .nav-main ul li a{
+    color: #ffffff;
+  }
+
+  .nav-main ul.nav-menu li {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .nav-main ul.nav-menu.show {
+    transform: translateX(-20px);
+    
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .img-home {
+    margin-top: 150px;
+  }
+  .not-found img {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+
+  .not-found img {
+    margin-top: 50px;
+  }
+}

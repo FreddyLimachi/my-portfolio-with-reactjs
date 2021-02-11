@@ -11,7 +11,7 @@ import {ParticlesNasa} from './Particles';
 
 function App() {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <ParticlesNasa/>
             <Navbar/>
             <div className="container">

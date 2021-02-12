@@ -14,7 +14,7 @@ export const NotFound = () => {
                     </abbr>
                 </div>
     
-                <div className="col-md-6 return animate__animated animate__zoomIn">
+                <div className="col-md-6 description animate__animated animate__zoomIn">
                     <span>404</span>
                     <h1>PÁGINA no encontrada</h1>
                     <Link to="/">Ir a inicio</Link>

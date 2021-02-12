@@ -33,7 +33,7 @@ span {
   src: url(../fonts/TFs.ttf);
 }
 
-/* Navegacion */
+/* Navegación */
 
 .nav-container {
   width: 90%;
@@ -54,6 +54,7 @@ span {
 .nav-main ul {
   display: flex;
   margin-left: auto;
+  z-index: 2;
 }
 
 .nav-main ul li {
@@ -70,31 +71,29 @@ span {
   cursor: url(../img/cursor-pointer.png), crosshair;    
 }
 
-.nav-main ul.nav-menu {
-  z-index: 100;
-}
-
 /* Responsive Button */
 .menu-btn {
+  display: none;
   position: absolute;
   top: 28px;
   right: 30px;
-  z-index: 2;
+  z-index: 3;
+}
+
+.menu-close {
   display: none;
+  position: fixed;
+  top: 28px;
+  right: 30px;
+  z-index: 3;
 }
 
-/* redes sociales */
-.redes li a i {
-  font-size: 25px;
-  color: #b4b4b4;
-  margin-inline-start: 5px;
-}
-.redes li a i:hover{
-  color: #ffffff;
-  cursor: url(../img/cursor-pointer.png), crosshair;
+/* imagen de inicio */
+.img-home img {
+  pointer-events: none;
 }
 
-/* Sobre mi */
+/* Mis habilidades */
 .my-skills ul li{
   color: #b4b4b4;
 }
@@ -107,15 +106,16 @@ span {
   padding: 10px;
 }
 
+/* Detalles de proyectos */
 .details .description{
   margin-top: 50px;
   text-align: center;
 }
 
+/* Tecnologias usadas */
 .tec li {
   color: rgb(241, 239, 103);
 }
-
 
 /* Contacto */
 .control {
@@ -135,10 +135,18 @@ span {
   font-size: 30px;
 }
 
-.img-home img {
-  pointer-events: none;
+/* iconos - redes sociales */
+.redes li a i {
+  font-size: 25px;
+  color: #b4b4b4;
+  margin-inline-start: 5px;
+}
+.redes li a i:hover{
+  color: #ffffff;
+  cursor: url(../img/cursor-pointer.png), crosshair;
 }
 
+/* Pagina no encontrada */
 .not-found {
   margin-top: 50px;
 }
@@ -147,54 +155,53 @@ span {
   cursor: url(../img/cursor-pointer.png), crosshair;  
 }
 
-.return a{
+.not-found .description {
+  margin-top: 50px;
+}
+
+.not-found .description span {
+  font-size: 150px;
+  color: #ffffff;
+}
+
+.not-found .description a{
   color:#0ea522;
   font-size: 25px;
   cursor: url(../img/cursor-pointer.png), crosshair;
 }
 
-.return {
-  margin-top: 50px;
-}
-
-.return span {
-  font-size: 150px;
-  color: #ffffff;
-}
 
 @media only screen and (min-height: 225px) {
   .home {
     margin-top: 50px;
   }
-  .about-me {
-    margin-top: 40px;
-  }
   .presentation {
     margin-top: 80px;
   }
-  .contact {
-    margin-top: 100px;
+  .about-me {
+    margin-top: 40px;
   }
   .details {
     margin-top: 50px;
   }  
+  
 }
 
 @media only screen and (min-height: 626px) {
   .home {
     margin-top: 100px;
   }
-  .about-me {
-    margin-top: 75px;
-  }
   .presentation {
     margin-top: 80px;
   }
-  .details {
-    margin-top: 50px;
+  .about-me {
+    margin-top: 75px;
   }
   .details {
     margin-top: 75px;
+  }
+  .contact {
+    margin-top: 100px;
   }
 }
 
@@ -208,11 +215,14 @@ span {
   .about-me {
     margin-top: 150px;
   }
+  .details {
+    margin-top: 150px;
+  }
   .contact {
     margin-top: 150px;
   }
-  .details {
-    margin-top: 150px;
+  .not-found {
+    margin-top: 120px;
   }
 }
 
@@ -226,10 +236,13 @@ span {
   .about-me {
     margin-top: 200px;
   }
+  .details {
+    margin-top: 200px;
+  }
   .contact {
     margin-top: 200px;
   }
-  .details {
+  .not-found {
     margin-top: 200px;
   }
 }
@@ -244,9 +257,6 @@ span {
   .about-me {
     margin-top: 20px;
   }
-  .contact {
-    margin-top: 20px;
-  }
   .details {
     margin-top: 25px;
   }
@@ -254,10 +264,13 @@ span {
     margin-top: 25px;
     text-align: center;
   }
+  .contact {
+    margin-top: 20px;
+  }
   .not-found img{
     display: none;
   }
-  .return {
+  .not-found .description {
     margin-top: 30px;
     text-align: center;
   }
@@ -265,23 +278,28 @@ span {
   .menu-btn {
     display: block;
   }
-
+  .menu-btn.show {
+    display: none;
+  }
   .menu-btn i{
-    color: #a0a0a0;
+    color: #ffffff;
+  }
+  .menu-close.show {
+    display: block;
   }
 
   .nav-main ul.nav-menu {
+    text-align: center;
     display: block;
     position: fixed;
-    z-index: 100;
+    z-index: 2;
     top: 0;
     left: 0;
     background: #2f3640;
-    width: 60%;
+    width: 100%;
     height: 100%;
-    border-right: #ccc 1px solid;
     opacity: .9;
-    padding: 40px;
+    padding-top: 100px;
     transform: translateX(-500px);
     transition: transform 0.5s ease-in-out;
   }
@@ -291,13 +309,12 @@ span {
   }
 
   .nav-main ul.nav-menu li {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 20px;
+    font-size: 40px;
   }
 
   .nav-main ul.nav-menu.show {
-    transform: translateX(-20px);
-    
+    transform: translateX(0px);
   }
 }
 
@@ -311,7 +328,6 @@ span {
 }
 
 @media only screen and (max-width: 1199px) {
-
   .not-found img {
     margin-top: 50px;
   }

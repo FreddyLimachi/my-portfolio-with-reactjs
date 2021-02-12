@@ -15,8 +15,11 @@ export const Navbar = () => {
 
     return (
         <section>
-            <div className="menu-btn" onClick={toggleMenu}>
+            <div className={`menu-btn ${click}`} onClick={toggleMenu}>
                 <i className="fas fa-bars fa-2x"></i>
+            </div>
+            <div className={`menu-close ${click}`} onClick={toggleMenu}>
+                <i className="fas fa-times fa-2x"></i>
             </div>
     
             <div className="nav-container">
@@ -25,7 +28,7 @@ export const Navbar = () => {
 
                     <img src={window.location.origin+"/img/logo.png"} className="nav-brand" alt="Freddy Limachi Ortega"/>
                     
-                    <ul className={`nav-menu ${click} font-weight-bold`}>
+                    <ul className={`nav-menu ${click}`}>
                         <li>
                             <Link to="/" onClick={toggleMenu}>Home</Link>
                         </li>

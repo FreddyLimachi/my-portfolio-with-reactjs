@@ -119,6 +119,7 @@ span {
 
 /* Contacto */
 .control {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   background: none;
   padding: 10px;

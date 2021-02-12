@@ -29,7 +29,7 @@ export const Contact = () => {
         }
 
         try{
-            const response = await axios.post(`${API}/send_message`, {
+            const response = await axios.post(`${API}`, {
                 name: name,
                 email: email,
                 message: message

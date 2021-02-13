@@ -14,7 +14,6 @@ function App() {
         <Router>
             <ParticlesNasa/>
             <Navbar/>
-            <div className="container">
                 <Switch>
                     <Route exact path='/' component={Home} />
                     <Route exact path='/sobre-mi' component={AboutMe} />
@@ -23,7 +22,7 @@ function App() {
                     <Route exact path='/proyectos/:id' component={ProjectDetails} />
                     <Route component={NotFound} />
                 </Switch>
-            </div>           
+             
         </Router>
     );
 }

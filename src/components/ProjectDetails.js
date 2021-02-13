@@ -32,7 +32,7 @@ export const ProjectDetails = (props) => {
 
     if (exists) {
         return (
-            <section className="details">
+            <section className="details container">
                 <div className="row">
                     <div className="col-lg-8 animate__animated animate__zoomIn">
                     

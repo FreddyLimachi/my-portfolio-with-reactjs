@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export const NotFound = () => {
     return (
-        <div className="not-found">
+        <div className="not-found container">
             <div className="row">
                 <div className="col-md-6 img-not-found animate__animated animate__zoomIn">
                     {/* Referenciando a pngtree por derechos de autor */}

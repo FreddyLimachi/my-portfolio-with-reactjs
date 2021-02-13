@@ -61,7 +61,7 @@ export const Contact = () => {
     }
 
     return (
-        <section className="contact">
+        <section className="contact container">
             <div className="row">
                 <div className="col-lg-4 col-md-6 mt-4 animate__animated animate__zoomIn">
                     <div className="row ml-auto">

@@ -1,7 +1,7 @@
 export const AboutMe = () => {
 
     return (
-        <section className="about-me">
+        <section className="about-me container">
             <div className="row">
     
                 <div className="col-lg-5 col-xl-5 animate__animated animate__zoomIn">

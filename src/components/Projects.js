@@ -5,7 +5,7 @@ import { projects } from '../data/projects'
 export const Projects = () => {
     
     return ( 
-        <section className="projects ">
+        <section className="projects container">
             <div className="row mt-5">
 
                 { projects.map((project) => (

@@ -12,7 +12,7 @@ export const Home = () => {
     ])
 
     return (
-        <section className="home">
+        <section className="home container">
             <div className="row">
                 <div className="col-md-6 presentation animate__animated animate__zoomIn">
                     <h5>Hola, soy</h5>

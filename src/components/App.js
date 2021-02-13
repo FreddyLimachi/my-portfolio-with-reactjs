@@ -6,7 +6,7 @@ import { Projects } from './Projects';
 import { Contact } from './Contact';
 import { ProjectDetails } from './ProjectDetails';
 import { NotFound } from './NotFound'
-import {ParticlesNasa} from './Particles';
+import { ParticlesNasa } from './Particles';
 
 
 function App() {

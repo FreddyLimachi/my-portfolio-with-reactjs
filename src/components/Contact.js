@@ -9,8 +9,6 @@ const API = process.env.REACT_APP_API
 
 export const Contact = () => {
 
-
-
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')

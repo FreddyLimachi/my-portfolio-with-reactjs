@@ -27,14 +27,11 @@ export const Home = () => {
                     <Link to="/sobre-mi" className="btn btn-outline-success mt-4 btn-lg">Ver más</Link>
                    
                 </div>
-    
                 <div className="col-md-6 img-home animate__animated animate__zoomIn">
                     <img src={window.location.origin+"/img/img-home.gif"} className="img-fluid" alt="developer"/>
                 </div> 
             </div>
 
-            
         </section>
-
     )
 }

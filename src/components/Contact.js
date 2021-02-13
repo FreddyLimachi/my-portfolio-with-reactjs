@@ -74,7 +74,7 @@ export const Contact = () => {
             
                     <div className="row mt-4 mb-4 ml-auto">
                         <i className={`fas fa-envelope-open-text icons text-${color} mt-2`}></i>
-                        <div className="ml-4 ">
+                        <div className="ml-4">
                             <h5>Correo</h5>
                             <p>freddylo_@hotmail.com</p>
                         </div>
@@ -82,7 +82,7 @@ export const Contact = () => {
             
                     <div className="row mb-5 ml-auto">
                         <i className={`fas fa-phone icons text-${color} mt-2`}></i>
-                        <div className="ml-4 ">
+                        <div className="ml-4">
                             <h5>Telefono</h5>
                             <p>+51 952 684 111</p>
                         </div>

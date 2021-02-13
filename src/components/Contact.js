@@ -130,7 +130,7 @@ export const Contact = () => {
                             required
                         />
                         
-                        <button className={`btn btn-outline-${color} btn-lg mb-4`} type="submit">Enviar</button>
+                        <button className={`btn-outline btn-big mb-4`} type="submit">Enviar</button>
                         
                     </form>   
                 </div>

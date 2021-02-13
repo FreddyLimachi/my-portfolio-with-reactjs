@@ -24,7 +24,7 @@ export const Home = () => {
                             loop
                         ></Typed>
                     </h4>
-                    <Link to="/sobre-mi" className="btn btn-outline-success mt-4 btn-lg">Ver más</Link>
+                    <Link to="/sobre-mi" className="btn-outline btn-big mt-4 btn-lg">Ver más</Link>
                    
                 </div>
                 <div className="col-md-6 img-home animate__animated animate__zoomIn">

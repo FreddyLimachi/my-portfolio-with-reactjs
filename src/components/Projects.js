@@ -24,7 +24,7 @@ export const Projects = () => {
                         
                             <div className="card-footer d-flex">
                                 <Link to={"proyectos/"+project.id} 
-                                    className="btn btn-outline-success ml-auto">
+                                    className="btn-outline ml-auto">
                                     Ver detalles
                                 </Link>
                             </div>

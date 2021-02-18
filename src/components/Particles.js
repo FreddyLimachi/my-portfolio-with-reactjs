@@ -1,12 +1,23 @@
 import Particles from 'react-particles-js';
+import { useState, useEffect } from 'react'
 
 export const ParticlesNasa = () => {
+
+    const [nroPart, setNroPart] = useState(160)
+    
+    useEffect(()=> {
+        if (window .innerWidth < 768)
+            setNroPart(50)
+        else
+            setNroPart(160)
+    })
+    
     return(
         <Particles
             params={{
                 "particles": {
                     "number": {
-                        "value": 160,
+                        "value": nroPart,
                         "density": {
                             "enable": false
                         }

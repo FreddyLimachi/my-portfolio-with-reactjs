@@ -28,7 +28,7 @@ export const ProjectDetails = (props) => {
 
     useEffect(()=> {
         findProject()
-     })
+    })
 
     if (exists) {
         return (

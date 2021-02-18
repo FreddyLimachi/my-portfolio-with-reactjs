@@ -4,7 +4,7 @@ export const AboutMe = () => {
         <section className="about-me container">
             <div className="row">
     
-                <div className="col-lg-6 col-xl-5 animate__animated animate__zoomIn">
+                <div className="col-lg-6 col-xl-5 mb-4 animate__animated animate__zoomIn">
                     <img src={window.location.origin+"/img/img-me.jpg"} className="img-fluid" alt="Freddy Limachi Ortega"/>
                 </div>
     

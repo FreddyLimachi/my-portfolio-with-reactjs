@@ -4,11 +4,11 @@ export const AboutMe = () => {
         <section className="about-me container">
             <div className="row">
     
-                <div className="col-lg-5 col-xl-5 animate__animated animate__zoomIn">
+                <div className="col-lg-6 col-xl-5 animate__animated animate__zoomIn">
                     <img src={window.location.origin+"/img/img-me.jpg"} className="img-fluid" alt="Freddy Limachi Ortega"/>
                 </div>
     
-                <div className="col-lg-7 animate__animated animate__zoomIn">
+                <div className="col-lg-6 ml-auto animate__animated animate__zoomIn">
                     <p>Hola, mi nombre es <span>Freddy Limachi Ortega</span>, 
                         tengo 21 años, considero que la programación y la tecnología en general son mis 
                         más grandes aficiones. Soy muy autodidacta en el sentido de que la mayoría de

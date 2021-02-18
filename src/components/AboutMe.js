@@ -17,7 +17,7 @@ export const AboutMe = () => {
                         habilidades.
                     </p>    
                    
-                    <h5 className="my-4 font-weight-bold">Mis habilidades</h5>
+                    <h5 className="mt-4 mb-2 font-weight-bold">Mis habilidades</h5>
                     <div className="my-skills">
                         <div className="row">
                             <ul className="col-md-6">

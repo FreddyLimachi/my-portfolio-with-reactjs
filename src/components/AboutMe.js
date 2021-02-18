@@ -5,7 +5,7 @@ export const AboutMe = () => {
             <div className="row">
     
                 <div className="col-lg-5 col-xl-5 animate__animated animate__zoomIn">
-                    <img src={window.location.origin+"/img/img-miracle.jpg"} className="img-fluid" alt="Freddy Limachi Ortega"/>
+                    <img src={window.location.origin+"/img/img-me.jpg"} className="img-fluid" alt="Freddy Limachi Ortega"/>
                 </div>
     
                 <div className="col-lg-7 animate__animated animate__zoomIn">

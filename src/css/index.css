@@ -167,7 +167,11 @@ span {
 }
 
 .contact i{
-  font-size: 30px;
+  font-size: 30px; 
+}
+
+.contact i{
+  cursor: url(../img/cursor-pointer.png), crosshair;
 }
 
 /* iconos - redes sociales */
@@ -237,6 +241,9 @@ span {
   }
   .contact {
     margin-top: 100px;
+  }
+  .contact img {
+    margin: -50px;
   }
 }
 

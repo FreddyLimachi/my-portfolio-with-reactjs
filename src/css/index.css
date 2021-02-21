@@ -20,6 +20,16 @@ ul {
   list-style: none;
 }
 
+a {
+  color: rgb(184, 184, 184);
+}
+
+a:hover {
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  cursor: url(../img/cursor-pointer.png), crosshair;    
+}
+
 p {
   color:rgb(184, 184, 184);
 }
@@ -175,18 +185,15 @@ span {
   font-size: 30px; 
 }
 
-.contact i{
-  cursor: url(../img/cursor-pointer.png), crosshair;
+.contact a {
+  display: table;
 }
 
-/* iconos - redes sociales */
-.redes li a i {
-  font-size: 25px;
-  color: #b4b4b4;
-  margin-inline-start: 5px;
+.contact p {
+  margin-bottom: 0px;
 }
-.redes li a i:hover{
-  color: #ffffff;
+
+.contact a i:hover{
   cursor: url(../img/cursor-pointer.png), crosshair;
 }
 
@@ -297,9 +304,6 @@ span {
 @media only screen and (max-width: 767px) {
   .img-home {
     display: none;
-  }
-  .redes li a i {
-    color: #f8f8f8;
   }
   .about-me {
     margin-top: 20px;

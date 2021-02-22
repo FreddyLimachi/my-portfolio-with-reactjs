@@ -6,7 +6,7 @@ export const projects = [
         name: 'Img Store',
         description: 'Una red social simple al estilo Pinterest donde puedes compartir fotos e imagenes con tus amigos',
         technologies: ['Flask', 'MongoDB', 'ReactJS'],
-        github_link: 'https://github.com/FreddyLimachi/reactjs-axios-imgstore',
+        github_link: 'https://github.com/FreddyLimachi/api-flask-mongodb-imgstore',
     },
     {
         id: 'internet-web',

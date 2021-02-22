@@ -17,12 +17,12 @@ export const projects = [
         github_link: 'https://github.com/FeedMEx/flask-mysql-ajax',
     },
     {
-        id: 'portafolio-web',
+        id: 'api-enviar-mensaje',
         img: '/portafolio.png',
-        name: 'Mi portafolio web',
-        description: 'Sitio web, donde puedes encontrar algunos de mis proyectos',
-        technologies: ['ReactJS', 'Flask'],
-        github_link: 'https://github.com/FreddyLimachi/mi-portafolio',
+        name: 'API - Enviar mensaje',
+        description: 'API para enviar mensajes desde un formulario a un correo destinatario',
+        technologies: ['Flask'],
+        github_link: 'https://github.com/FreddyLimachi/api-flask-mail',
     },
     {
         id: 'internet-desktop',

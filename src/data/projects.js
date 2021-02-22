@@ -20,7 +20,7 @@ export const projects = [
         id: 'portafolio-web',
         img: '/portafolio.png',
         name: 'Mi portafolio web',
-        description: 'Sitio web, donde puedes encontrar gran parte de mis proyectos',
+        description: 'Sitio web, donde puedes encontrar algunos de mis proyectos',
         technologies: ['ReactJS', 'Flask'],
         github_link: 'https://github.com/FreddyLimachi/mi-portafolio',
     },

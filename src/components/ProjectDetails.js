@@ -37,7 +37,7 @@ export const ProjectDetails = (props) => {
                     <div className="col-lg-8 animate__animated animate__zoomIn">
                     
                         <div className="mt-2 text-center">
-                            <img src={window.location.origin+'/img/projectDetails'+project.img} 
+                            <img src={window.location.origin+project.img} 
                                 className="img-fluid" 
                                 alt={project.name}
                             />

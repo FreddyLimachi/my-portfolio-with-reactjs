@@ -16,7 +16,7 @@ export const Projects = () => {
                                 <h6>{project.name}</h6>
                             </div>
                             <div className="card-body">
-                                <img src={window.location.origin+'/img/projects'+project.img} 
+                                <img src={window.location.origin+project.img} 
                                     className="img-fluid" 
                                     alt={project.name}
                                 />

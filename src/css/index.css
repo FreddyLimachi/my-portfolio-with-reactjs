@@ -145,6 +145,13 @@ span {
 }
 
 /* Proyectos */
+.preview-project img {
+  max-width: 100%;
+  clip-path: inset(0 0 18% 0);
+  margin-bottom: -39px;
+}
+
+
 .preview-project {
   border-radius: 5px;
   border: #8d8d8d solid 2px;

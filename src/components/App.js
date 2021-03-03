@@ -7,21 +7,24 @@ import { Contact } from './Contact';
 import { ProjectDetails } from './ProjectDetails';
 import { NotFound } from './NotFound'
 import { ParticlesNasa } from './Particles';
-
+import { FilePdf } from './MyCv';
 
 function App() {
     return (
         <Router>
+
             <ParticlesNasa/>
             <Navbar/>
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route exact path='/sobre-mi' component={AboutMe} />
-                    <Route exact path='/proyectos' component={Projects} />
-                    <Route exact path='/contacto' component={Contact} />
-                    <Route exact path='/proyectos/:id' component={ProjectDetails} />
-                    <Route component={NotFound} />
-                </Switch>
+            <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/sobre-mi' component={AboutMe} />
+                <Route exact path='/cv-FreddyLimachi' component={FilePdf} />
+                <Route exact path='/proyectos' component={Projects} />
+                <Route exact path='/contacto' component={Contact} />
+                <Route exact path='/proyectos/:id' component={ProjectDetails} />
+                <Route component={NotFound} />
+            </Switch>
+            <img src={window.location.origin+'/img/footer.png'} className="img-footer"/>
              
         </Router>
     );

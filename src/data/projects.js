@@ -4,7 +4,7 @@ export const projects = [
         id: 'img-store',
         img: '/img/projects/img-store.png',
         name: 'Img Store',
-        description: 'Una red social simple al estilo Pinterest donde puedes compartir fotos e imagenes con tus amigos, utilizando JWT para gestionar sesiones de usuarios.',
+        description: 'Una red social simple al estilo Pinterest donde puedes compartir fotos e imagenes con tus amigos, utilizo JWT para gestionar sesiones de los usuarios.',
         technologies: ['Flask', 'MongoDB', 'ReactJS'],
         github_link: 'https://github.com/FreddyLimachi/api-flask-mongodb-imgstore',
     },

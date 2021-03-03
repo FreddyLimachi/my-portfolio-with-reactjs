@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import { Button } from 'react-bootstrap'
 
 export const Navbar = () => {
 
@@ -17,15 +18,15 @@ export const Navbar = () => {
         <nav className="nav-container">
 
             <div className={`menu-btn ${click}`} onClick={toggleMenu}>
-                <i className="fas fa-bars fa-2x"></i>
+                <img src={window.location.origin+'/svgs/menu.svg'}></img>
             </div>
             <div className={`menu-close ${click}`} onClick={toggleMenu}>
-                <i className="fas fa-times fa-2x"></i>
+                <img src={window.location.origin+'/svgs/close.svg'}></img>
             </div>
 
             <div className="nav-main">
 
-                <img src={window.location.origin+"/img/logo.png"} className="nav-brand" alt="Freddy Limachi Ortega"/>
+                <img src={window.location.origin+"/svgs/logo.svg"} className="nav-brand" alt="Freddy Limachi Ortega"/>
                 
                 <ul className={`nav-menu ${click}`}>
                     <li>

@@ -34,7 +34,7 @@ export const ProjectDetails = (props) => {
         return (
             <section className="details container">
                 <div className="row">
-                    <div className="col-lg-8 animate__animated animate__zoomIn">
+                    <div className="col-lg-8 animate__animated animate__backInUp">
                     
                         <div className="mt-2 text-center">
                             <img src={window.location.origin+project.img} 
@@ -44,7 +44,7 @@ export const ProjectDetails = (props) => {
                         </div>
                 
                     </div>
-                    <div className="col-lg-4 description animate__animated animate__zoomIn">
+                    <div className="col-lg-4 description animate__animated animate__backInUp">
                         <h5 className="mb-4">{project.name}</h5>
                         <p>{project.description}</p>
                         <ul className="list-unstyled tec">
@@ -54,7 +54,7 @@ export const ProjectDetails = (props) => {
                         </ul>
                         <a 
                             href={project.github_link} 
-                            className="btn btn-outline-success btn-lg my-4"
+                            className="btn-outline btn-big my-4"
                             target="_blank"
                             rel="noopener noreferrer">
                             Ver código <i className="fab fa-github"></i>

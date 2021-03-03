@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react'
 
 export const ParticlesNasa = () => {
 
-    const [nroPart, setNroPart] = useState(160)
+    const [nroPart, setNroPart] = useState(150)
     
     useEffect(()=> {
         if (window .innerWidth < 768)
             setNroPart(50)
         else
-            setNroPart(160)
+            setNroPart(150)
     })
     
     return(
@@ -23,11 +23,11 @@ export const ParticlesNasa = () => {
                         }
                     },
                     "size": {
-                        "value": 3,
+                        "value": 2,
                         "random": true,
                         "anim": {
                             "speed": 4,
-                            "size_min": 0.3
+                            "size_min": 0.1
                         }
                     },
                     "line_linked": {
@@ -35,8 +35,8 @@ export const ParticlesNasa = () => {
                     },
                     "move": {
                         "random": true,
-                        "speed": 1,
-                        "direction": "top",
+                        "speed": 0.3,
+                        "direction": "right",
                         "out_mode": "out"
                     }
                 },

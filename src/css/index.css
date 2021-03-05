@@ -113,15 +113,10 @@ span {
   cursor: url(../img/cursor-pointer.png), crosshair; 
 }
 
-.btn-outline:focus {
-  box-shadow: 0 0 0 0.2rem rgb(0, 255, 179);
-}
-
 .btn-outline.btn-big {
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
 }
-
 
 .btn-outline.btn-small {
   font-size: 0.85rem;

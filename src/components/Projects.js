@@ -12,18 +12,25 @@ export const Projects = () => {
                     <div key={project.id} className="col-sm-12 col-md-6 col-lg-4 mb-5 animate__animated animate__backInUp">
                         <div className="preview-project">
                             
-                           
+                            
+                            <div className="card-header">
+                                <h5>{project.name}</h5>
+                            </div>
+                            
                             <div className="card-body">
                                 <img src={window.location.origin+project.img} 
                                     className="img-fluid" 
                                     alt={project.name}
                                 />
-                                <Link to={"proyectos/"+project.id} 
-                                    className="btn-outline ml-auto w-100 text-center">
-                                    {project.name}
-                                </Link>
-                            </div>                           
-
+                            </div>  
+                            
+                            <div className="card-footer ml-auto d-flex">
+                                <Link 
+                                    to={"proyectos/"+project.id} 
+                                    className="btn-outline ml-auto">
+                                    Ver detalles
+                                </Link>  
+                            </div>
                         </div> 
                     </div>
                 ))}

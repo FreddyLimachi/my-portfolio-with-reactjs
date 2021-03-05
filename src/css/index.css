@@ -205,12 +205,10 @@ span {
 }
 
 /* Proyectos */
-
 .preview-project img {
-  margin-bottom: 10px;
-  filter: invert(0.1) sepia(1) hue-rotate(125deg) saturate(100%);
+  margin-bottom: -10px;
+  margin-top: -10px;
 }
-
 
 /* Detalles de proyectos */
 .details .description{

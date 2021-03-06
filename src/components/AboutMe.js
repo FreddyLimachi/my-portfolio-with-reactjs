@@ -5,7 +5,7 @@ export const AboutMe = () => {
     const BtnCV = () => {
         if (typeof window.orientation !== "undefined"){
             return (
-                <a className="btn-outline btn-small" href={window.location.origin+'/docs/cv.pdf'} download>Descargar CV</a>
+                <a className="btn-outline btn-small" href={window.location.origin+'/docs/cv-FreddyLimachi.pdf'} download>Descargar CV</a>
             )
         } else {
             return (

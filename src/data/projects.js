@@ -1,6 +1,14 @@
 
 export const projects = [
     {
+        id: 'my-server',
+        img: '/img/projects/my-server.png',
+        name: 'My server',
+        description: 'Servidor en red local (microtick) montado con nginx y gunicorn corriendo en debian-linux',
+        technologies: ['Flask', 'Nginx', 'Gunicorn'],
+        github_link: 'https://github.com/FreddyLimachi/my-server-nginx-gunicorn',
+    },
+    {
         id: 'img-store',
         img: '/img/projects/img-store.png',
         name: 'Img Store',

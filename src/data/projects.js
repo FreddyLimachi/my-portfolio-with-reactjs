@@ -22,7 +22,7 @@ export const projects = [
         name: 'Gestion clientes - Web',
         description: 'Aplicación web - Gestión de clientes y pagos mensuales para un negocio enfocado a proveer internet, incluye login.',
         technologies: ['Flask', 'MySQL','jQuery-AJAX'],
-        github_link: 'https://github.com/FeedMEx/flask-mysql-ajax',
+        github_link: 'https://github.com/FreddyLimachi/flask-mysql-ajax',
     },
     {
         id: 'api-enviar-mensaje',
@@ -38,7 +38,7 @@ export const projects = [
         name: 'Gestión clientes - Desktop',
         description: 'Aplicación desktop - Gestión de clientes y pagos mensuales para un negocio enfocado a proveer internet, incluye login.',
         technologies: ['Tkinter', 'MySQL'],
-        github_link: 'https://github.com/FeedMEx/python-numpy-tkinter',
+        github_link: 'https://github.com/FreddyLimachi/python-tkinter-mysql',
     },
     {
         id: 'reductor-de-matrices',
@@ -46,7 +46,7 @@ export const projects = [
         name: 'Reductor de matrices',
         description: 'Aplicación enfocado a la reducción de matrices, matriz escalonada, Gauss Jordan, etc.',
         technologies: ['Tkinter', 'Numpy'],
-        github_link: 'https://github.com/FeedMEx/python-numpy-tkinter',
+        github_link: 'https://github.com/FreddyLimachi/python-numpy-tkinter',
     }
 ]
 

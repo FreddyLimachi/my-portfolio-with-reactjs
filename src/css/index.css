@@ -486,3 +486,7 @@ span {
     margin-top: 50px;
   }
 }
+
+.site-title {
+  text-transform: none;
+}

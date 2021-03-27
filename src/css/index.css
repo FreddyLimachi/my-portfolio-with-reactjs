@@ -118,10 +118,6 @@ span {
   padding: 0.5rem 1rem;
 }
 
-.btn-outline.btn-small {
-  font-size: 0.85rem;
-  padding: 0.35rem 0.6rem;
-}
 /* Responsive Button */
 .menu-btn {
   display: none;

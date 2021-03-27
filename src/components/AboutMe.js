@@ -1,23 +1,4 @@
-import {useEffect} from 'react'
-
 export const AboutMe = () => {
-
-    const BtnCV = () => {
-        if (typeof window.orientation !== "undefined"){
-            return (
-                <a className="btn-outline btn-small" href={window.location.origin+'/docs/cv-FreddyLimachi.pdf'} download>Descargar CV</a>
-            )
-        } else {
-            return (
-                <a className="btn-outline btn-small" href='/cv-FreddyLimachi' target="_blank" rel="noopener noreferrer">Descargar CV</a>
-            )
-        }
-    }
-
-    useEffect(()=> {
-        BtnCV()
-    })
-   
 
     return (
         <section className="about-me container">
@@ -34,7 +15,7 @@ export const AboutMe = () => {
                         tengo 21 años, soy un programador autodidacta y apasionado, hoy 
                         la mayor parte de mis conocimientos y atención se enfocan en el desarrollo <span>
                         backend con python</span>, constatemente voy aprendiendo nuevas tecnologías para
-                        mejorar y actualizar mi stack de habilidades. <BtnCV/>
+                        mejorar y actualizar mi stack de habilidades.
                     </p>    
                     
                     

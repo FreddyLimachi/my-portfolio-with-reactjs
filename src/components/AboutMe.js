@@ -14,7 +14,7 @@ export const AboutMe = () => {
                     <p>Hola, mi nombre es Freddy Limachi Ortega,
                         tengo 21 años, soy un programador autodidacta y apasionado, hoy 
                         la mayor parte de mis conocimientos y atención se enfocan en el desarrollo <span>
-                        backend con python</span>, constatemente voy aprendiendo nuevas tecnologías para
+                        backend con python</span>, constantemente voy aprendiendo nuevas tecnologías para
                         mejorar y actualizar mi stack de habilidades.
                     </p>    
                     

@@ -18,7 +18,6 @@ export const AboutMe = () => {
                         mejorar y actualizar mi stack de habilidades.
                     </p>    
                     
-                    
                     <h5 className="mt-4 mb-2 font-weight-bold">Mis habilidades</h5>
                     <div className="my-skills">
                         <div className="row">

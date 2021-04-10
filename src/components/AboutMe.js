@@ -24,16 +24,17 @@ export const AboutMe = () => {
                             <ul className="col-sm-6">
                                 <li>· Python</li>
                                 <li>· Flask</li>
-                                <li>· Django (Estudiando)</li>
+                                <li>· Django</li>
                                 <li>· MySQL - MariaDB</li>
-                                <li>· Mongo-DB</li>
-                                <li>· Terminal linux</li>
-                            </ul>                    
+                                <li>· MongoDB</li>
+                                <li>· Ubuntu, Debian</li>
+                                <li>· Nginx (Básico)</li>
+                            </ul>
                             <ul className="col-sm-6">
                                 <li>· API REST</li>
                                 <li>· Docker (Básico)</li>
                                 <li>· React JS</li>
-                                <li>· Bootstrap 4.5</li>
+                                <li>· Bootstrap</li>
                                 <li>· jQuery - AJAX</li>
                                 <li>· Git - GitHub</li>
                             </ul>
@@ -44,6 +45,5 @@ export const AboutMe = () => {
                 
             </div>
         </section>
-
     )
 }

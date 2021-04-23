@@ -26,11 +26,12 @@ export const AboutMe = () => {
                                 <li>· Flask</li>
                                 <li>· Django</li>
                                 <li>· MySQL - MariaDB</li>
+                                <li>· PostgreSQL</li>
                                 <li>· MongoDB</li>
                                 <li>· Ubuntu, Debian</li>
-                                <li>· Nginx (Básico)</li>
                             </ul>
                             <ul className="col-sm-6">
+                                <li>· Nginx (Básico)</li>
                                 <li>· API REST</li>
                                 <li>· Docker (Básico)</li>
                                 <li>· React JS</li>
@@ -40,7 +41,6 @@ export const AboutMe = () => {
                             </ul>
                         </div>
                     </div>
-                    
                 </div>
                 
             </div>

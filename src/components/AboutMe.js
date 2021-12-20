@@ -6,7 +6,7 @@ export const AboutMe = () => {
     
                 <div className="col-lg-6 col-xl-5 mb-4 animate__animated animate__backInUp">
                     <div className="img-me">
-                        <img src={window.location.origin+"/img/img-me.jpg"} className="img-fluid"/>
+                        <img src={window.location.origin+"/img/img-me.png"} className="img-fluid"/>
                     </div>
                 </div>
     
